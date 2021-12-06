@@ -1,0 +1,56 @@
+/* CSS files add styling rules to your content */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  user-select: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+#adult {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+}
+#adult>h3 {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 12px;
+}
+#adult>div {
+  padding: 16px;
+  max-width: 512px;
+  margin: 0 auto;
+}
+#adult>button {
+  cursor: pointer;
+  color: white;
+  background-color: #1eaedb;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+#gallery {
+  display: grid;
+  justify-items: center;
+  max-height: 100vh;
+}
+#gallery > img {
+  max-width: 640px;
+  width: 100vw;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+/* @media screen and (max-width: 1024px) {
+  #gallery {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+  #gallery > img {
+    scroll-snap-align: center;
+  }
+} */
