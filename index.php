@@ -32,7 +32,7 @@
       <button id="adultConfirm">Мне исполнилось 18 лет</button>
     </div>
     <div id="gallery"></div>
-    <script type="text/javascript" src="src/js/script_030821.js" defer></script>
+    <script type="text/javascript" src="src/js/script_081221.js" defer></script>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >

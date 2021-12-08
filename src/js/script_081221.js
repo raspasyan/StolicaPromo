@@ -1,7 +1,7 @@
 adultConfirm.addEventListener("click", e => adult.style.display = 'none');
 
 let cd = new Date();
-let dt = new Date("2021-09-01");
+let dt = new Date("2022-01-12");
 
 if (cd > dt) {
     let element = document.createElement("img");
@@ -11,15 +11,15 @@ if (cd > dt) {
     const REGION_DATA = [
         {
             title: "Регионы",
-            qty: 24
+            qty: 36
         },
         {
             title: "Зея, Тында (Чегдомын, Ургал)",
-            qty: 24
+            qty: 36
         },
         {
             title: "Хабаровск",
-            qty: 24
+            qty: 36
         },
         {
             title: "Чегдомын",
@@ -31,7 +31,7 @@ if (cd > dt) {
         },
         {
             title: "Биробиджан",
-            qty: 0
+            qty: 36
         }
     ];
 
